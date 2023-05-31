@@ -12,6 +12,15 @@ workout = ['Push day [Body weight]',
            'Leg day [Weights]',
            'REST :)']
 
+days = ['Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+        'Rest-Optional']
+
 today = date(2023, 5, 30)
 
 win= Tk()
