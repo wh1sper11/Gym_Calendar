@@ -1,27 +1,13 @@
 from tkinter import *
 import tkinter as tk
 from datetime import date
+from input import workout_func, workout
 
 
-workout = ['Push day [Body weight]',
-           'Pull day [Body weight]',
-           'Leg day [Body weight]',
-           'REST :)',
-           'Push day [Weights]',
-           'Pull day [Weights]',
-           'Leg day [Weights]',
-           'REST :)']
+workout = workout
 
-days = ['Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday',
-        'Rest-Optional']
 
-today = date(2023, 5, 30)
+today = date(2023, 5, 31)
 
 win= Tk()
 win.title('')

@@ -16,6 +16,7 @@ def workout_func():
     workout.append(workout_entry5.get())
     workout.append(workout_entry6.get())
     workout.append(workout_entry7.get())
+    workout.append(workout_entry8.get())
 
     print(workout)
 
@@ -62,10 +63,10 @@ workout_label7.grid(row=7, column=0, padx=10,pady=5)
 workout_entry7 = tk.Entry(win,width=50)
 workout_entry7.grid(row=7, column=1)
 
-workout_label1 = tk.Label(win, text="Monday:", font=("Arial", 12))
-workout_label1.grid(row=8, column=0, padx=10,pady=5)
-workout_entry1 = tk.Entry(win,width=50)
-workout_entry1.grid(row=8, column=1)
+workout_label8 = tk.Label(win, text="Monday:", font=("Arial", 12))
+workout_label8.grid(row=8, column=0, padx=10,pady=5)
+workout_entry8 = tk.Entry(win,width=50)
+workout_entry8.grid(row=8, column=1)
 
 
 Example = tk.Label(win, text="Examples:", font=("Arial", 12,'bold'))
@@ -97,4 +98,5 @@ Example.grid(row=8, column=3,padx=10,sticky="w")
 
 submit_button = Button(win, text="Submit", command=workout_func,width=10,font=("Arial", 12,'bold'),bg='black',fg='white')
 submit_button.grid(row=9, column=1, columnspan=2, pady=10)
+
 win.mainloop()
