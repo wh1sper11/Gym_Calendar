@@ -9,6 +9,13 @@ def workout_func():
 
     print(workout)
 
+def label_changer(day_index,new_text):
+    label[day_index].config(text=new_text,padx=100)
+    day_index = 2
+    new_text = "test"
+
+
+label_changer(day_index=2,new_text="test")
 win = Tk()
 win.title('Workout Calendar')
 win.geometry("800x400+600+280")
